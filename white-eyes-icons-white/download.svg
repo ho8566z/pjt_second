@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="2560" viewBox="0 0 1800 1280"><rect width="1800" height="1280" fill="white"/>
+<text x='50' y='69' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='42' font-weight='700' fill='#123C30'>white-eyes 개발환경 구성도</text>
+<text x='52' y='109' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='400' fill='#547168'>개발 도구 → 형상관리·검증 → 로컬 서비스 실행 → 운영 설계</text>
+<text x='1510' y='69' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='20' font-weight='400' fill='#547168'>2026.10.30 기준</text>
+<rect x='50' y='145' width='1700' height='190' rx='0' fill='#F6FAF8' stroke='#D8E5DF' stroke-width='1.5'/>
+<text x='75' y='183' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#183A34'>01  협업 · 소스 관리 · CI</text>
+<rect x='75' y='210' width='340' height='95' rx='0' fill='#FFFFFF' stroke='#C6E6D9' stroke-width='1.5'/>
+<text x='95' y='245' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#183A34'>Notion · white-eyes-docs</text>
+<text x='95' y='279' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>명세 · 결정 기록 · 시험 보고서</text>
+<rect x='495' y='210' width='490' height='95' rx='0' fill='#E4F5ED' stroke='#B7DCCB' stroke-width='1.5'/>
+<text x='515' y='245' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#183A34'>Git · GitHub / white-eyes1</text>
+<text x='515' y='279' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>feature/* → dev → main  ·  이슈 · PR · 리뷰</text>
+<path d='M 415 255 L 495 255' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 485.995528976473 259.349655341112 L 495 255 L 485.995528976473 250.650344658888' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<rect x='1080' y='210' width='645' height='95' rx='0' fill='#E4F5ED' stroke='#B7DCCB' stroke-width='1.5'/>
+<text x='1100' y='245' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#183A34'>GitHub Actions</text>
+<text x='1100' y='280' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='20' font-weight='400' fill='#547168'>확인한 Spring CI: Temurin 17 + ./gradlew build</text>
+<path d='M 985 255 L 1080 255' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1070.99552897647 259.349655341112 L 1080 255 L 1070.99552897647 250.650344658888' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<rect x='50' y='370' width='490' height='670' rx='0' fill='#F5FAFF' stroke='#CCDEE9' stroke-width='1.5'/>
+<text x='75' y='417' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='25' font-weight='700' fill='#244C64'>02  개발 PC · 개발 도구</text>
+<text x='75' y='464' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='25' font-weight='700' fill='#244C64'>Windows + WSL2 (Ubuntu)</text>
+<text x='75' y='499' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#587382'>OS·커널·Ubuntu 릴리스: 확인 필요</text>
+<rect x='75' y='535' width='440' height='140' rx='0' fill='#FFFFFF' stroke='#CCDEE9' stroke-width='1.5'/>
+<text x='95' y='572' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#244C64'>IDE</text>
+<text x='95' y='612' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='22' font-weight='400' fill='#244C64'>IntelliJ IDEA · VS Code · PyCharm</text>
+<text x='95' y='649' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#996B21'>사용 여부 · 에디션 · 버전 확인 필요</text>
+<rect x='75' y='700' width='440' height='125' rx='0' fill='#FFFFFF' stroke='#CCDEE9' stroke-width='1.5'/>
+<text x='95' y='736' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='22' font-weight='700' fill='#244C64'>코드 작성 · 분석 보조</text>
+<text x='95' y='778' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='400' fill='#244C64'>Codex · Claude Code</text>
+<text x='95' y='809' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#587382'>설치 버전 · 모델 버전 확인 필요</text>
+<text x='75' y='877' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='22' font-weight='700' fill='#244C64'>Java 17  ·  Gradle Wrapper 9.8.1</text>
+<text x='75' y='919' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='21' font-weight='700' fill='#244C64'>Python 3.12.15 지정  ·  uv 0.12.22¹</text>
+<text x='75' y='963' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='21' font-weight='400' fill='#244C64'>Playwright · Chromium: 화면 검증</text>
+<text x='75' y='1005' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#587382'>Git · gh · Docker 정확한 버전: 미확인</text>
+<rect x='600' y='370' width='1150' height='670' rx='0' fill='#F7FCF9' stroke='#B7DCCB' stroke-width='1.5'/>
+<text x='625' y='417' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='25' font-weight='700' fill='#183A34'>03  로컬 통합 실행 — WSL2 + Docker Compose v2</text>
+<text x='625' y='453' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='20' font-weight='400' fill='#547168'>user · admin · Flask · MySQL · nginx를 컨테이너로 실행</text>
+<path d='M 540 465 L 600 465' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 590.995528976473 469.349655341112 L 600 465 L 590.995528976473 460.650344658888' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<rect x='625' y='485' width='250' height='95' rx='0' fill='#FFFFFF' stroke='#C6E6D9' stroke-width='1.5'/>
+<text x='645' y='523' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#183A34'>웹 브라우저</text>
+<text x='645' y='558' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#547168'>HTML · CSS · JavaScript</text>
+<rect x='955' y='485' width='360' height='95' rx='0' fill='#D9F1E5' stroke='#AFD4C2' stroke-width='1.5'/>
+<text x='975' y='523' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#183A34'>nginx 1.27-alpine</text>
+<text x='975' y='559' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>외부 진입 :80 · 요청 분배</text>
+<path d='M 875 532 L 955 532' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 945.995528976473 536.349655341112 L 955 532 L 945.995528976473 527.650344658888' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<rect x='625' y='640' width='450' height='155' rx='0' fill='#FFFFFF' stroke='#C6E6D9' stroke-width='1.5'/>
+<text x='645' y='679' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#183A34'>user :8080 / admin :8081</text>
+<text x='645' y='721' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='400' fill='#183A34'>Java 17 · Spring Boot 4.1.1</text>
+<text x='645' y='757' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>Thymeleaf · Security · JPA · Flyway</text>
+<text x='645' y='786' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>공유 코드: user → common ← admin</text>
+<rect x='1360' y='485' width='365' height='95' rx='0' fill='#FFFFFF' stroke='#C6E6D9' stroke-width='1.5'/>
+<text x='1380' y='523' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#183A34'>MySQL 8.4 :3306</text>
+<text x='1380' y='558' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#547168'>DB 접근: user · admin → MySQL</text>
+<rect x='1140' y='640' width='585' height='155' rx='0' fill='#FFFFFF' stroke='#C6E6D9' stroke-width='1.5'/>
+<text x='1160' y='678' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='700' fill='#183A34'>Flask 3.1.3 :5000 / Python 3.12 계열</text>
+<text x='1160' y='720' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='23' font-weight='400' fill='#183A34'>VisDrone YOLOv8m + PointTracker</text>
+<text x='1160' y='758' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='20' font-weight='400' fill='#547168'>Ultralytics 8.4.183 · PyTorch 2.6.0 (CPU)</text>
+<text x='1160' y='786' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>OpenCV 5.0.0.93 · ffmpeg</text>
+<path d='M 1030 580 L 1030 610 L 850 610 L 850 640' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 845.650344658888 630.995528976473 L 850 640 L 854.349655341112 630.995528976473' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1230 580 L 1230 610 L 1430 610 L 1430 640' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1425.65034465889 630.995528976473 L 1430 640 L 1434.34965534111 630.995528976473' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1075 720 L 1140 720' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1130.99552897647 724.349655341112 L 1140 720 L 1130.99552897647 715.650344658888' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1140 750 L 1075 750' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1084.00447102353 745.650344658888 L 1075 750 L 1084.00447102353 754.349655341112' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<text x='625' y='834' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>admin → Flask: 가동·정지  /  Flask → admin 내부 :8082: 결과·상태</text>
+<rect x='625' y='870' width='1100' height='130' rx='0' fill='#E4F5ED' stroke='#B7DCCB' stroke-width='1.5'/>
+<text x='645' y='908' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#183A34'>공유 미디어 폴더  ./media → /srv/media</text>
+<text x='645' y='948' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='21' font-weight='400' fill='#547168'>Flask: 읽기·쓰기  /  nginx: 권한 확인 후 읽기 전용 전송</text>
+<text x='645' y='985' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='19' font-weight='400' fill='#547168'>common은 독립 서버가 아님  ·  내부 통신: X-Internal-Token</text>
+<path d='M 1510 795 L 1510 870' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<path d='M 1505.65034465889 860.995528976473 L 1510 870 L 1514.34965534111 860.995528976473' fill='none' stroke='#6B8F84' stroke-width='2'/>
+<rect x='50' y='1070' width='1700' height='125' rx='0' fill='#FFFCF4' stroke='#D5B981' stroke-width='1.5' stroke-dasharray="7 5"/>
+<text x='75' y='1108' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='#79591E'>04  운영 설계 — 구현·배포 완료 여부 별도 확인</text>
+<text x='75' y='1148' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='22' font-weight='400' fill='#79591E'>빌드·검증 → GHCR 이미지 저장 → 각 Linux VM에서 pull·재기동  |  서비스별 VM + NFS v4 + chrony(NTP)</text>
+<text x='75' y='1181' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#8C7447'>로컬은 폴더 공유, 운영 설계는 NFS  ·  확인한 Spring CI에 GHCR push·VM 자동 배포 단계는 없음</text>
+<text x='50' y='1232' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='18' font-weight='400' fill='#657C73'>버전은 저장소 설정·lock·이미지 태그 기준이며 실제 설치·실행 버전과 다를 수 있습니다.</text>
+<text x='50' y='1261' font-family='Malgun Gothic, Noto Sans KR, sans-serif' font-size='17' font-weight='400' fill='#657C73'>¹ uv 0.12.22는 Flask 컨테이너 내 도구 버전  |  Python 지정값 3.12.15, 컨테이너 기반 이미지 python:3.12-slim</text>
+</svg>
