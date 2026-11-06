@@ -6,10 +6,5 @@
 **/.vscode/
 **/tests/
 **/.prettierignore
-
-**/*.ppt
-**/*.pptx
-
-**/*.mp4
-
-**/*.zip
+*.mp4
+ppt/Obsidian-shield 리뉴얼.pptx
